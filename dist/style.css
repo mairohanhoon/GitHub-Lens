@@ -1,0 +1,22 @@
+.newDiv_base{
+    background-color: white;
+    border-radius: 2rem;
+    width: 70%;
+    
+}
+.img_div{
+    display: flex;
+    justify-content: center;
+}
+.pf_img{
+    padding: 1.5rem;
+    display: grid;
+    width: 60%;
+    margin: auto;
+}
+.pf_name{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+    size: 16rem;
+}
