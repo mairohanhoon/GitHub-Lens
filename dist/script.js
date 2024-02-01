@@ -71,7 +71,7 @@ form.addEventListener('click', function (e) {
                             let morebaseDiv = document.createElement('div');
                             let createdOn = element.created_at
                             let createdTxt = createdOn.slice(0, 10);
-                            morebaseDiv.innerHTML = `<p1 class="text-sm md:text-xl font-semibold font-sans text-center ml-4 mr-4">${x}. ${element.name}<span class="md:hidden"><br></span> [Created on: ${createdTxt}]</p1>`
+                            morebaseDiv.innerHTML = `<p1 class="text-sm md:text-xl font-semibold font-sans text-center ml-4 mr-4">${x}. ${element.name}<span class="md:hidden"><br></span> <span class="font-normal">[Created on: ${createdTxt}]</span></p1>`
                             nbaseDiv.append(morebaseDiv)
                             x++;
                         });
