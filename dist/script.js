@@ -37,10 +37,10 @@ form.addEventListener('click', function (e) {
                             repoImgDiv.innerHTML = `
                             <div class="group bg-white m-2 p-1 items-center rounded-2xl myscale">
                             <div class="flex justify-center">
-                            <img class="w-16 rounded-xl" src="${element.avatar_url}" alt="">
+                            <img class="w-12 md:w-16 rounded-xl" src="${element.avatar_url}" alt="">
                             </div>
                             <div class="flex justify-center">
-                            <h1 class="text-center text-yellow-400 font-bold font-sans">${element.login}</h1>
+                            <h1 class="text-center text-blue-500 font-bold text-sm md:text-lg font-sans">${element.login}</h1>
                             </div>
                             </div>`
                             orgImg.append(repoImgDiv)
